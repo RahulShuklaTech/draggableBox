@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0; 
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: skyblue;
+    position: relative;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: slateblue;
+    border-radius: 8px;
+    position: absolute;
+    cursor: move;
+    color: white;
+    text-align: center;
+}
